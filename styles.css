@@ -11,7 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     /* justify-content: flex-end; */
-    height: 100%;
+    
     margin: 0px;
     /* background-image: url('/resources/background-7716491_1280\ \(1\).png');
     background-repeat: repeat; */
@@ -19,6 +19,7 @@ body{
 }
 .big{
     display: flex;
+    height: 100%;
 }
 .sidebar{
     flex: 0 1 800px;
@@ -69,11 +70,12 @@ img{
     flex-direction: column;
     justify-content: flex-start;
     align-items:start;
-    padding-top: 100px;
+    padding-top: 8.38vh;
     
-    padding-left:80px;
+    padding-left:11.51vh;
+    
     font-family:"balls",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    gap:20px;
+    gap:2.877vh;
     
 }
 .ball{
@@ -82,28 +84,30 @@ img{
     gap:20px;
 }
 p{
-    font-size: 20px;
+    font-size: 2.877vh;
 }
 .ball p:last-child{
-    font-size: 30px;
+    font-size:4.3165vh;
 }
 form p{
-    font-size: 40px;
+    font-size: 5.755vh;
 }
 h1{
-    font-size: 80px;
+    font-size: 11.51vh;
 }
 form{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    /* flex: 1; */
-    gap:30px;
+    width: 90%;
+    flex: 1;
+    gap:4.vh;
     background-color: antiquewhite;
-    border-radius: 20px;
+    border-radius: 2.877vh;
     border:5px solid black;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 2.5vh;
+   justify-self: center;
+   justify-content: space-between;
 
 }
 form *{
@@ -111,11 +115,12 @@ form *{
 }
 .inform {
     display: flex;
+    flex:1;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 10px;
-    justify-content: space-around;
-    gap: 30px;
+    justify-content: space-evenly;
+    gap: 2vh;
     
 }
 .row{
