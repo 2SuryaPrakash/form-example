@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "balls";
-    src: url('/resources/Norse-Bold.otf');
+    src: url('./resources/Norse-Bold.otf');
 }
 *{
     margin: 0;
